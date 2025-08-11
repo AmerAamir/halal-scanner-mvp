@@ -1,0 +1,32 @@
+{
+  "name": "halal-scanner-mvp",
+  "private": true,
+  "packageManager": "pnpm@8.10.5",
+  "license": "MIT",
+  "description": "Halal Scanner MVP – a privacy‑first progressive web app that helps consumers determine whether food products are halal, haram or doubtful based on their ingredients.",
+  "scripts": {
+    "dev": "pnpm --filter apps/web dev",
+    "build": "pnpm --filter apps/web build",
+    "test": "pnpm run test:unit && pnpm run test:e2e",
+    "test:unit": "pnpm --filter @halalscanner/engine test && pnpm --filter @halalscanner/rules test",
+    "test:e2e": "pnpm --filter apps/web test:e2e",
+    "lint": "eslint . --ext .ts,.tsx,.js,.jsx",
+    "format": "prettier --write .",
+    "export": "pnpm --filter apps/web export",
+    "ingest:off": "pnpm --filter tools ingest:off",
+    "rules:validate": "pnpm --filter tools rules:validate",
+    "rules:bundle": "pnpm --filter tools rules:bundle"
+  },
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "tools"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "eslint": "^8.50.0",
+    "eslint-config-next": "^14.0.0",
+    "typescript": "^5.3.3",
+    "prettier": "^3.2.5"
+  }
+}

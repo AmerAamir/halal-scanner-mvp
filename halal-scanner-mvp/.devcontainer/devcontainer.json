@@ -1,0 +1,19 @@
+{
+  "name": "Halal Scanner",
+  "image": "mcr.microsoft.com/vscode/devcontainers/typescript-node:latest",
+  "features": {},
+  "settings": {
+    "terminal.integrated.defaultProfile.linux": "bash"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.vscode-typescript-next",
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode"
+      ]
+    }
+  },
+  "forwardPorts": [3000],
+  "workspaceFolder": "/workspaces/halal-scanner-mvp"
+}

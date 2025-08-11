@@ -1,0 +1,26 @@
+{
+  "name": "@halalscanner/rules",
+  "version": "0.1.0",
+  "description": "Halal Scanner rules and data (ingredients, e-numbers, certifiers).",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "data"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "lint": "eslint src --ext .ts"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "yaml": "^2.3.2",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "vitest": "^0.34.6",
+    "@types/node": "^20.4.2"
+  }
+}

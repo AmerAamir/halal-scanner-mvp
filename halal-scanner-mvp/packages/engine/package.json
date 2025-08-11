@@ -1,0 +1,23 @@
+{
+  "name": "@halalscanner/engine",
+  "version": "0.1.0",
+  "description": "Pure TypeScript rule engine for Halal Scanner.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "test": "vitest run",
+    "lint": "eslint src --ext .ts"
+  },
+  "dependencies": {
+    "@halalscanner/rules": "workspace:*",
+    "fastest-levenshtein": "^1.0.16"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "vitest": "^0.34.6",
+    "@types/node": "^20.4.2"
+  }
+}

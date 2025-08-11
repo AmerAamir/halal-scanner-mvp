@@ -1,0 +1,31 @@
+name: Weekly Data Refresh
+
+on:
+  schedule:
+    - cron: '0 3 * * 0' # every Sunday at 3:00 UTC
+  workflow_dispatch:
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 8
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 18
+          cache: 'pnpm'
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile=false
+      - name: Ingest latest Open Food Facts products
+        run: pnpm ingest:off --country=CA --limit=25
+      - name: Create Pull Request
+        uses: peter-evans/create-pull-request@v5
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: 'chore(data): weekly OFF product refresh'
+          branch: chore/off-refresh
+          title: 'Weekly Open Food Facts data refresh'
+          body: 'This PR updates the cached OFF products for Canada.'

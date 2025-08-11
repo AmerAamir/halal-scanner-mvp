@@ -1,0 +1,37 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [18.x]
+    steps:
+      - uses: actions/checkout@v3
+      - uses: pnpm/action-setup@v2
+        with:
+          version: 8
+      - uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'pnpm'
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile=false
+      - name: Lint
+        run: pnpm lint
+      - name: Unit tests
+        run: pnpm test:unit
+      - name: Build packages
+        run: pnpm --filter @halalscanner/rules build && pnpm --filter @halalscanner/engine build
+      - name: Build and export web
+        run: pnpm --filter @halalscanner/web build && pnpm --filter @halalscanner/web export
+      - name: Playwright install
+        run: pnpm --filter @halalscanner/web exec playwright install --with-deps
+      - name: End-to-end tests
+        run: pnpm --filter @halalscanner/web test:e2e

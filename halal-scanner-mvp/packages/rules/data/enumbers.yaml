@@ -1,0 +1,1206 @@
+# List of E-numbers with statuses and citations.
+# Contains more than 100 entries to bootstrap the rule engine.
+
+- code: E100
+  name: curcumin
+  status: halal
+  note: "Natural colouring from turmeric."
+  citations:
+    - "https://example.com/e100-halal"
+
+- code: E101
+  name: riboflavin
+  status: halal
+  note: "Vitamin B2; typically synthetic or plant derived."
+  citations:
+    - "https://example.com/e101-halal"
+
+- code: E102
+  name: tartrazine
+  status: doubtful
+  note: "Artificial yellow colour; some avoid due to health concerns."
+  citations:
+    - "https://example.com/e102-doubtful"
+
+- code: E104
+  name: quinoline yellow
+  status: doubtful
+  note: "Synthetic dye; source may vary."
+  citations:
+    - "https://example.com/e104-doubtful"
+
+- code: E110
+  name: sunset yellow
+  status: doubtful
+  note: "Artificial dye; halal if petroleum derived."
+  citations:
+    - "https://example.com/e110-doubtful"
+
+- code: E120
+  name: carmine
+  status: haram
+  note: "Red colouring extracted from insects."
+  citations:
+    - "https://example.com/e120-haram"
+
+- code: E122
+  name: azorubine
+  status: doubtful
+  note: "Synthetic red dye; permissible but some avoid."
+  citations:
+    - "https://example.com/e122-doubtful"
+
+- code: E124
+  name: ponceau 4r
+  status: doubtful
+  note: "Artificial red dye; source dependent."
+  citations:
+    - "https://example.com/e124-doubtful"
+
+- code: E127
+  name: erythrosine
+  status: doubtful
+  note: "Red dye containing iodine; avoid in some diets."
+  citations:
+    - "https://example.com/e127-doubtful"
+
+- code: E129
+  name: allura red
+  status: doubtful
+  note: "Synthetic red dye; halal if petroleum derived."
+  citations:
+    - "https://example.com/e129-doubtful"
+
+- code: E133
+  name: brilliant blue fcf
+  status: halal
+  note: "Synthetic blue dye; halal."
+  citations:
+    - "https://example.com/e133-halal"
+
+- code: E140
+  name: chlorophylls
+  status: halal
+  note: "Pigments from plants; halal."
+  citations:
+    - "https://example.com/e140-halal"
+
+- code: E141
+  name: copper complexes of chlorophyll
+  status: halal
+  note: "Colouring derived from chlorophyll and copper; halal."
+  citations:
+    - "https://example.com/e141-halal"
+
+- code: E150a
+  name: plain caramel
+  status: halal
+  note: "Sugar heated to create colour; halal."
+  citations:
+    - "https://example.com/e150a-halal"
+
+- code: E150b
+  name: caustic sulphite caramel
+  status: halal
+  note: "Caramel produced with sulphite; halal."
+  citations:
+    - "https://example.com/e150b-halal"
+
+- code: E150c
+  name: ammonia caramel
+  status: doubtful
+  note: "Caramel produced with ammonia; permissible but avoid in some diets."
+  citations:
+    - "https://example.com/e150c-doubtful"
+
+- code: E150d
+  name: sulphite ammonia caramel
+  status: doubtful
+  note: "Caramel produced with sulphite and ammonia; permissible but avoid in some diets."
+  citations:
+    - "https://example.com/e150d-doubtful"
+
+- code: E160a
+  name: carotene
+  status: halal
+  note: "Pigment from carrots; halal."
+  citations:
+    - "https://example.com/e160a-halal"
+
+- code: E160c
+  name: paprika extract
+  status: halal
+  note: "Extracted from red peppers; halal."
+  citations:
+    - "https://example.com/e160c-halal"
+
+- code: E160d
+  name: lycopene
+  status: halal
+  note: "Red pigment from tomatoes; halal."
+  citations:
+    - "https://example.com/e160d-halal"
+
+- code: E160e
+  name: beta-apo-8'-carotenal
+  status: halal
+  note: "Synthetic carotenoid; halal."
+  citations:
+    - "https://example.com/e160e-halal"
+
+- code: E160f
+  name: beta-apo-8'-carotenoic acid ethyl ester
+  status: halal
+  note: "Synthetic carotenoid; halal."
+  citations:
+    - "https://example.com/e160f-halal"
+
+- code: E161b
+  name: lutein
+  status: halal
+  note: "Pigment from marigold flowers; halal."
+  citations:
+    - "https://example.com/e161b-halal"
+
+- code: E162
+  name: beetroot red
+  status: halal
+  note: "Betanin from beets; halal."
+  citations:
+    - "https://example.com/e162-halal"
+
+- code: E163
+  name: anthocyanins
+  status: halal
+  note: "Pigments from berries; halal."
+  citations:
+    - "https://example.com/e163-halal"
+
+- code: E170
+  name: calcium carbonate
+  status: halal
+  note: "Mineral used as colour and filler; halal."
+  citations:
+    - "https://example.com/e170-halal"
+
+- code: E171
+  name: titanium dioxide
+  status: doubtful
+  note: "White pigment; allowed but under scrutiny."
+  citations:
+    - "https://example.com/e171-doubtful"
+
+- code: E200
+  name: sorbic acid
+  status: halal
+  note: "Naturally occurring preservative; halal."
+  citations:
+    - "https://example.com/e200-halal"
+
+- code: E202
+  name: potassium sorbate
+  status: halal
+  note: "Salt of sorbic acid; halal."
+  citations:
+    - "https://example.com/e202-halal"
+
+- code: E210
+  name: benzoic acid
+  status: halal
+  note: "Preservative; halal."
+  citations:
+    - "https://example.com/e210-halal"
+
+- code: E211
+  name: sodium benzoate
+  status: halal
+  note: "Salt of benzoic acid; halal."
+  citations:
+    - "https://example.com/e211-halal"
+
+- code: E212
+  name: potassium benzoate
+  status: halal
+  note: "Preservative; halal."
+  citations:
+    - "https://example.com/e212-halal"
+
+- code: E213
+  name: calcium benzoate
+  status: halal
+  note: "Preservative; halal."
+  citations:
+    - "https://example.com/e213-halal"
+
+- code: E220
+  name: sulphur dioxide
+  status: halal
+  note: "Antioxidant used to preserve colour; halal."
+  citations:
+    - "https://example.com/e220-halal"
+
+- code: E221
+  name: sodium sulphite
+  status: halal
+  note: "Antioxidant; halal."
+  citations:
+    - "https://example.com/e221-halal"
+
+- code: E222
+  name: sodium bisulphite
+  status: halal
+  note: "Preservative; halal."
+  citations:
+    - "https://example.com/e222-halal"
+
+- code: E223
+  name: sodium metabisulphite
+  status: halal
+  note: "Preservative; halal."
+  citations:
+    - "https://example.com/e223-halal"
+
+- code: E224
+  name: potassium metabisulphite
+  status: halal
+  note: "Preservative; halal."
+  citations:
+    - "https://example.com/e224-halal"
+
+- code: E250
+  name: sodium nitrite
+  status: doubtful
+  note: "Curing agent; permissible but used in processed meats."
+  citations:
+    - "https://example.com/e250-doubtful"
+
+- code: E251
+  name: sodium nitrate
+  status: doubtful
+  note: "Curing agent; permissible but used in processed meats."
+  citations:
+    - "https://example.com/e251-doubtful"
+
+- code: E252
+  name: potassium nitrate
+  status: doubtful
+  note: "Curing agent; permissible but used in processed meats."
+  citations:
+    - "https://example.com/e252-doubtful"
+
+- code: E260
+  name: acetic acid
+  status: halal
+  note: "Main component of vinegar; halal."
+  citations:
+    - "https://example.com/e260-halal"
+
+- code: E262
+  name: sodium acetate
+  status: halal
+  note: "Salt of acetic acid; halal."
+  citations:
+    - "https://example.com/e262-halal"
+
+- code: E263
+  name: calcium acetate
+  status: halal
+  note: "Salt of acetic acid; halal."
+  citations:
+    - "https://example.com/e263-halal"
+
+- code: E270
+  name: lactic acid
+  status: halal
+  note: "Produced by fermentation; halal if plant derived."
+  citations:
+    - "https://example.com/e270-halal"
+
+- code: E296
+  name: malic acid
+  status: halal
+  note: "Occurs naturally in fruit; halal."
+  citations:
+    - "https://example.com/e296-halal"
+
+- code: E297
+  name: fumaric acid
+  status: halal
+  note: "Acidifier from fermentation; halal."
+  citations:
+    - "https://example.com/e297-halal"
+
+- code: E300
+  name: ascorbic acid
+  status: halal
+  note: "Vitamin C; halal."
+  citations:
+    - "https://example.com/e300-halal"
+
+- code: E301
+  name: sodium ascorbate
+  status: halal
+  note: "Salt of ascorbic acid; halal."
+  citations:
+    - "https://example.com/e301-halal"
+
+- code: E302
+  name: calcium ascorbate
+  status: halal
+  note: "Salt of ascorbic acid; halal."
+  citations:
+    - "https://example.com/e302-halal"
+
+- code: E306
+  name: tocopherols
+  status: halal
+  note: "Vitamin E; typically plant derived."
+  citations:
+    - "https://example.com/e306-halal"
+
+- code: E307
+  name: alpha-tocopherol
+  status: halal
+  note: "Form of vitamin E; halal."
+  citations:
+    - "https://example.com/e307-halal"
+
+- code: E310
+  name: propyl gallate
+  status: doubtful
+  note: "Antioxidant; source may vary."
+  citations:
+    - "https://example.com/e310-doubtful"
+
+- code: E322
+  name: lecithins
+  status: halal
+  note: "Emulsifiers often from soy; halal."
+  citations:
+    - "https://example.com/e322-halal"
+
+- code: E330
+  name: citric acid
+  status: halal
+  note: "Common acidifier; halal."
+  citations:
+    - "https://example.com/e330-halal"
+
+- code: E331
+  name: sodium citrates
+  status: halal
+  note: "Salts of citric acid; halal."
+  citations:
+    - "https://example.com/e331-halal"
+
+- code: E332
+  name: potassium citrates
+  status: halal
+  note: "Salts of citric acid; halal."
+  citations:
+    - "https://example.com/e332-halal"
+
+- code: E333
+  name: calcium citrates
+  status: halal
+  note: "Salts of citric acid; halal."
+  citations:
+    - "https://example.com/e333-halal"
+
+- code: E334
+  name: tartaric acid
+  status: halal
+  note: "Acid from grapes; halal."
+  citations:
+    - "https://example.com/e334-halal"
+
+- code: E335
+  name: sodium tartrates
+  status: halal
+  note: "Salts of tartaric acid; halal."
+  citations:
+    - "https://example.com/e335-halal"
+
+- code: E336
+  name: potassium tartrates
+  status: halal
+  note: "Salts of tartaric acid; halal."
+  citations:
+    - "https://example.com/e336-halal"
+
+- code: E337
+  name: sodium potassium tartrate
+  status: halal
+  note: "Rochelle salt; halal."
+  citations:
+    - "https://example.com/e337-halal"
+
+- code: E338
+  name: phosphoric acid
+  status: halal
+  note: "Acidifier used in sodas; halal."
+  citations:
+    - "https://example.com/e338-halal"
+
+- code: E339
+  name: sodium phosphates
+  status: halal
+  note: "Salts of phosphoric acid; halal."
+  citations:
+    - "https://example.com/e339-halal"
+
+- code: E340
+  name: potassium phosphates
+  status: halal
+  note: "Salts of phosphoric acid; halal."
+  citations:
+    - "https://example.com/e340-halal"
+
+- code: E341
+  name: calcium phosphates
+  status: halal
+  note: "Salts of phosphoric acid; halal."
+  citations:
+    - "https://example.com/e341-halal"
+
+- code: E407
+  name: carrageenan
+  status: halal
+  note: "Seaweed derivative; halal."
+  citations:
+    - "https://example.com/e407-halal"
+
+- code: E410
+  name: locust bean gum
+  status: halal
+  note: "Thickening agent from carob; halal."
+  citations:
+    - "https://example.com/e410-halal"
+
+- code: E412
+  name: guar gum
+  status: halal
+  note: "Thickening agent from guar beans; halal."
+  citations:
+    - "https://example.com/e412-halal"
+
+- code: E413
+  name: tragacanth
+  status: halal
+  note: "Natural gum from plant sap; halal."
+  citations:
+    - "https://example.com/e413-halal"
+
+- code: E414
+  name: gum arabic
+  status: halal
+  note: "Sap of acacia trees; halal."
+  citations:
+    - "https://example.com/e414-halal"
+
+- code: E415
+  name: xanthan gum
+  status: halal
+  note: "Polysaccharide produced by fermentation; halal."
+  citations:
+    - "https://example.com/e415-halal"
+
+- code: E416
+  name: karaya gum
+  status: halal
+  note: "Natural gum from Sterculia trees; halal."
+  citations:
+    - "https://example.com/e416-halal"
+
+- code: E440
+  name: pectins
+  status: halal
+  note: "Fiber found in fruit; halal."
+  citations:
+    - "https://example.com/e440-halal"
+
+- code: E460
+  name: cellulose
+  status: halal
+  note: "Plant fibre; halal."
+  citations:
+    - "https://example.com/e460-halal"
+
+- code: E461
+  name: methyl cellulose
+  status: halal
+  note: "Modified cellulose; halal."
+  citations:
+    - "https://example.com/e461-halal"
+
+- code: E463
+  name: hydroxypropyl cellulose
+  status: halal
+  note: "Modified cellulose; halal."
+  citations:
+    - "https://example.com/e463-halal"
+
+- code: E464
+  name: hydroxypropyl methyl cellulose
+  status: halal
+  note: "Modified cellulose; halal."
+  citations:
+    - "https://example.com/e464-halal"
+
+- code: E466
+  name: carboxymethyl cellulose
+  status: halal
+  note: "Modified cellulose; halal."
+  citations:
+    - "https://example.com/e466-halal"
+
+- code: E470a
+  name: sodium salts of fatty acids
+  status: doubtful
+  note: "Salts derived from fats; may be animal or vegetable."
+  citations:
+    - "https://example.com/e470a-doubtful"
+
+- code: E470b
+  name: magnesium salts of fatty acids
+  status: doubtful
+  note: "May be animal or plant derived."
+  citations:
+    - "https://example.com/e470b-doubtful"
+
+- code: E471
+  name: mono- and diglycerides of fatty acids
+  status: doubtful
+  note: "Emulsifiers from fats; source matters."
+  citations:
+    - "https://example.com/e471-doubtful"
+
+- code: E472a
+  name: acetic acid esters of mono- and diglycerides
+  status: doubtful
+  note: "Emulsifiers; source may be animal or plant."
+  citations:
+    - "https://example.com/e472a-doubtful"
+
+- code: E472b
+  name: lactic acid esters of mono- and diglycerides
+  status: doubtful
+  note: "Emulsifiers; source may be animal or plant."
+  citations:
+    - "https://example.com/e472b-doubtful"
+
+- code: E472c
+  name: citric acid esters of mono- and diglycerides
+  status: doubtful
+  note: "Emulsifiers; source may be animal or plant."
+  citations:
+    - "https://example.com/e472c-doubtful"
+
+- code: E472d
+  name: tartaric acid esters of mono- and diglycerides
+  status: doubtful
+  note: "Emulsifiers; source may be animal or plant."
+  citations:
+    - "https://example.com/e472d-doubtful"
+
+- code: E472e
+  name: mono- and diacetyl tartaric acid esters of mono- and diglycerides
+  status: doubtful
+  note: "Emulsifiers; source may be animal or plant."
+  citations:
+    - "https://example.com/e472e-doubtful"
+
+- code: E472f
+  name: mixed acetic and tartaric acid esters of mono- and diglycerides
+  status: doubtful
+  note: "Emulsifiers; source may be animal or plant."
+  citations:
+    - "https://example.com/e472f-doubtful"
+
+- code: E474
+  name: sucrose esters of fatty acids
+  status: doubtful
+  note: "Source may be animal or plant derived."
+  citations:
+    - "https://example.com/e474-doubtful"
+
+- code: E475
+  name: polyglycerol esters of fatty acids
+  status: doubtful
+  note: "Source may be animal or plant."
+  citations:
+    - "https://example.com/e475-doubtful"
+
+- code: E476
+  name: polyglycerol polyricinoleate
+  status: doubtful
+  note: "Emulsifier; may derive from castor oil."
+  citations:
+    - "https://example.com/e476-doubtful"
+
+- code: E477
+  name: propylene glycol esters of fatty acids
+  status: doubtful
+  note: "Emulsifier; source may be animal or plant."
+  citations:
+    - "https://example.com/e477-doubtful"
+
+- code: E481
+  name: sodium stearoyl lactylate
+  status: doubtful
+  note: "Emulsifier; may be derived from animal fats."
+  citations:
+    - "https://example.com/e481-doubtful"
+
+- code: E482
+  name: calcium stearoyl lactylate
+  status: doubtful
+  note: "Emulsifier; may be derived from animal fats."
+  citations:
+    - "https://example.com/e482-doubtful"
+
+- code: E491
+  name: sorbitan monostearate
+  status: doubtful
+  note: "Emulsifier; source may be animal or plant."
+  citations:
+    - "https://example.com/e491-doubtful"
+
+- code: E492
+  name: sorbitan tristearate
+  status: doubtful
+  note: "Emulsifier; source may be animal or plant."
+  citations:
+    - "https://example.com/e492-doubtful"
+
+- code: E493
+  name: sorbitan monolaurate
+  status: doubtful
+  note: "Emulsifier; source may be animal or plant."
+  citations:
+    - "https://example.com/e493-doubtful"
+
+- code: E494
+  name: sorbitan monooleate
+  status: doubtful
+  note: "Emulsifier; source may be animal or plant."
+  citations:
+    - "https://example.com/e494-doubtful"
+
+- code: E495
+  name: sorbitan monopalmitate
+  status: doubtful
+  note: "Emulsifier; source may be animal or plant."
+  citations:
+    - "https://example.com/e495-doubtful"
+
+- code: E500
+  name: sodium carbonates
+  status: halal
+  note: "Leavening; halal."
+  citations:
+    - "https://example.com/e500-halal"
+
+- code: E501
+  name: potassium carbonates
+  status: halal
+  note: "Leavening; halal."
+  citations:
+    - "https://example.com/e501-halal"
+
+- code: E503
+  name: ammonium carbonates
+  status: halal
+  note: "Leavening; halal."
+  citations:
+    - "https://example.com/e503-halal"
+
+- code: E504
+  name: magnesium carbonates
+  status: halal
+  note: "Anticaking agent; halal."
+  citations:
+    - "https://example.com/e504-halal"
+
+- code: E507
+  name: hydrochloric acid
+  status: halal
+  note: "Acidifier; halal."
+  citations:
+    - "https://example.com/e507-halal"
+
+- code: E508
+  name: potassium chloride
+  status: halal
+  note: "Salt substitute; halal."
+  citations:
+    - "https://example.com/e508-halal"
+
+- code: E509
+  name: calcium chloride
+  status: halal
+  note: "Firming agent; halal."
+  citations:
+    - "https://example.com/e509-halal"
+
+- code: E510
+  name: ammonium chloride
+  status: halal
+  note: "Acidifier; halal."
+  citations:
+    - "https://example.com/e510-halal"
+
+- code: E511
+  name: magnesium chloride
+  status: halal
+  note: "Firming agent; halal."
+  citations:
+    - "https://example.com/e511-halal"
+
+- code: E513
+  name: sulphuric acid
+  status: halal
+  note: "Acidifier used in small amounts; halal."
+  citations:
+    - "https://example.com/e513-halal"
+
+- code: E515
+  name: potassium sulphate
+  status: halal
+  note: "Firming agent; halal."
+  citations:
+    - "https://example.com/e515-halal"
+
+- code: E516
+  name: calcium sulphate
+  status: halal
+  note: "Firming agent; halal."
+  citations:
+    - "https://example.com/e516-halal"
+
+- code: E520
+  name: aluminium sulphate
+  status: halal
+  note: "Firming agent; halal."
+  citations:
+    - "https://example.com/e520-halal"
+
+- code: E521
+  name: aluminium sodium sulphate
+  status: halal
+  note: "Leavening; halal."
+  citations:
+    - "https://example.com/e521-halal"
+
+- code: E522
+  name: aluminium potassium sulphate
+  status: halal
+  note: "Leavening; halal."
+  citations:
+    - "https://example.com/e522-halal"
+
+- code: E523
+  name: aluminium ammonium sulphate
+  status: halal
+  note: "Leavening; halal."
+  citations:
+    - "https://example.com/e523-halal"
+
+- code: E526
+  name: calcium hydroxide
+  status: halal
+  note: "Lime; halal."
+  citations:
+    - "https://example.com/e526-halal"
+
+- code: E527
+  name: ammonium hydroxide
+  status: halal
+  note: "Alkalising agent; halal."
+  citations:
+    - "https://example.com/e527-halal"
+
+- code: E528
+  name: magnesium hydroxide
+  status: halal
+  note: "Acidity regulator; halal."
+  citations:
+    - "https://example.com/e528-halal"
+
+- code: E529
+  name: calcium oxide
+  status: halal
+  note: "Lime; halal."
+  citations:
+    - "https://example.com/e529-halal"
+
+- code: E530
+  name: magnesium oxide
+  status: halal
+  note: "Acidity regulator; halal."
+  citations:
+    - "https://example.com/e530-halal"
+
+- code: E535
+  name: sodium ferrocyanide
+  status: halal
+  note: "Anticaking agent for salt; halal."
+  citations:
+    - "https://example.com/e535-halal"
+
+- code: E536
+  name: potassium ferrocyanide
+  status: halal
+  note: "Anticaking agent; halal."
+  citations:
+    - "https://example.com/e536-halal"
+
+- code: E538
+  name: calcium ferrocyanide
+  status: halal
+  note: "Anticaking agent; halal."
+  citations:
+    - "https://example.com/e538-halal"
+
+- code: E541
+  name: sodium aluminium phosphate
+  status: halal
+  note: "Leavening agent; halal."
+  citations:
+    - "https://example.com/e541-halal"
+
+- code: E551
+  name: silicon dioxide
+  status: halal
+  note: "Anticaking agent; halal."
+  citations:
+    - "https://example.com/e551-halal"
+
+- code: E552
+  name: calcium silicate
+  status: halal
+  note: "Anticaking agent; halal."
+  citations:
+    - "https://example.com/e552-halal"
+
+- code: E553a
+  name: magnesium silicate
+  status: halal
+  note: "Anticaking agent; halal."
+  citations:
+    - "https://example.com/e553a-halal"
+
+- code: E553b
+  name: talc
+  status: halal
+  note: "Anticaking agent; halal."
+  citations:
+    - "https://example.com/e553b-halal"
+
+- code: E570
+  name: fatty acids
+  status: doubtful
+  note: "May be derived from animal or vegetable fats."
+  citations:
+    - "https://example.com/e570-doubtful"
+
+- code: E572
+  name: magnesium stearate
+  status: doubtful
+  note: "May be derived from animal fat; verify source."
+  citations:
+    - "https://example.com/e572-doubtful"
+
+- code: E575
+  name: glucono delta-lactone
+  status: halal
+  note: "Acidifier; halal."
+  citations:
+    - "https://example.com/e575-halal"
+
+- code: E578
+  name: calcium gluconate
+  status: halal
+  note: "Firming agent; halal."
+  citations:
+    - "https://example.com/e578-halal"
+
+- code: E579
+  name: iron gluconate
+  status: halal
+  note: "Colour stabiliser; halal."
+  citations:
+    - "https://example.com/e579-halal"
+
+- code: E586
+  name: ferrous lactate
+  status: halal
+  note: "Iron supplement; halal."
+  citations:
+    - "https://example.com/e586-halal"
+
+- code: E620
+  name: glutamic acid
+  status: halal
+  note: "Amino acid; halal."
+  citations:
+    - "https://example.com/e620-halal"
+
+- code: E621
+  name: monosodium glutamate
+  status: halal
+  note: "Flavour enhancer; halal."
+  citations:
+    - "https://example.com/e621-halal"
+
+- code: E622
+  name: monopotassium glutamate
+  status: halal
+  note: "Flavour enhancer; halal."
+  citations:
+    - "https://example.com/e622-halal"
+
+- code: E623
+  name: calcium diglutamate
+  status: halal
+  note: "Flavour enhancer; halal."
+  citations:
+    - "https://example.com/e623-halal"
+
+- code: E624
+  name: monoammonium glutamate
+  status: halal
+  note: "Flavour enhancer; halal."
+  citations:
+    - "https://example.com/e624-halal"
+
+- code: E625
+  name: magnesium diglutamate
+  status: halal
+  note: "Flavour enhancer; halal."
+  citations:
+    - "https://example.com/e625-halal"
+
+- code: E627
+  name: disodium guanylate
+  status: halal
+  note: "Flavour enhancer; halal when yeast derived."
+  citations:
+    - "https://example.com/e627-halal"
+
+- code: E631
+  name: disodium inosinate
+  status: doubtful
+  note: "Flavour enhancer often derived from meat or fish."
+  citations:
+    - "https://example.com/e631-doubtful"
+
+- code: E635
+  name: disodium 5'-ribonucleotides
+  status: doubtful
+  note: "Flavour enhancer; combination of E627 and E631."
+  citations:
+    - "https://example.com/e635-doubtful"
+
+- code: E640
+  name: glycine
+  status: halal
+  note: "Amino acid; halal."
+  citations:
+    - "https://example.com/e640-halal"
+
+- code: E900
+  name: dimethylpolysiloxane
+  status: halal
+  note: "Anti‑foaming agent; halal."
+  citations:
+    - "https://example.com/e900-halal"
+
+- code: E901
+  name: beeswax
+  status: halal
+  note: "Wax from bees; halal."
+  citations:
+    - "https://example.com/e901-halal"
+
+- code: E902
+  name: candelilla wax
+  status: halal
+  note: "Wax from plant leaves; halal."
+  citations:
+    - "https://example.com/e902-halal"
+
+- code: E903
+  name: carnauba wax
+  status: halal
+  note: "Wax from palm leaves; halal."
+  citations:
+    - "https://example.com/e903-halal"
+
+- code: E904
+  name: shellac
+  status: doubtful
+  note: "Resin secreted by insects; considered haram by some."
+  citations:
+    - "https://example.com/e904-doubtful"
+
+- code: E905
+  name: microcrystalline wax
+  status: halal
+  note: "Petroleum wax; halal."
+  citations:
+    - "https://example.com/e905-halal"
+
+- code: E912
+  name: montan acid esters
+  status: halal
+  note: "Wax derived from mineral coal; halal."
+  citations:
+    - "https://example.com/e912-halal"
+
+- code: E913
+  name: lanolin
+  status: doubtful
+  note: "Wax from sheep wool; may come from non‑halal slaughter."
+  citations:
+    - "https://example.com/e913-doubtful"
+
+- code: E914
+  name: oxidised polyethylene wax
+  status: halal
+  note: "Synthetic wax; halal."
+  citations:
+    - "https://example.com/e914-halal"
+
+- code: E920
+  name: L-cysteine
+  status: doubtful
+  note: "Amino acid often derived from hair or feathers."
+  citations:
+    - "https://example.com/e920-doubtful"
+
+- code: E921
+  name: sodium L-cysteinate
+  status: doubtful
+  note: "Derivative of L‑cysteine; source matters."
+  citations:
+    - "https://example.com/e921-doubtful"
+
+- code: E927a
+  name: azodicarbonamide
+  status: doubtful
+  note: "Flour treatment agent; banned in some regions."
+  citations:
+    - "https://example.com/e927a-doubtful"
+
+- code: E927b
+  name: carbamide
+  status: halal
+  note: "Urea; synthetic or plant derived."
+  citations:
+    - "https://example.com/e927b-halal"
+
+- code: E928
+  name: benzoyl peroxide
+  status: halal
+  note: "Flour bleaching agent; halal."
+  citations:
+    - "https://example.com/e928-halal"
+
+- code: E939
+  name: helium
+  status: halal
+  note: "Inert gas; halal."
+  citations:
+    - "https://example.com/e939-halal"
+
+- code: E941
+  name: nitrogen
+  status: halal
+  note: "Inert gas; halal."
+  citations:
+    - "https://example.com/e941-halal"
+
+- code: E948
+  name: oxygen
+  status: halal
+  note: "Gas; halal."
+  citations:
+    - "https://example.com/e948-halal"
+
+- code: E949
+  name: hydrogen
+  status: halal
+  note: "Gas; halal."
+  citations:
+    - "https://example.com/e949-halal"
+
+- code: E950
+  name: acesulfame potassium
+  status: halal
+  note: "Artificial sweetener; halal."
+  citations:
+    - "https://example.com/e950-halal"
+
+- code: E951
+  name: aspartame
+  status: doubtful
+  note: "Artificial sweetener; some avoid."
+  citations:
+    - "https://example.com/e951-doubtful"
+
+- code: E952
+  name: cyclamic acid
+  status: doubtful
+  note: "Artificial sweetener banned in some countries."
+  citations:
+    - "https://example.com/e952-doubtful"
+
+- code: E954
+  name: saccharin
+  status: halal
+  note: "Artificial sweetener; halal."
+  citations:
+    - "https://example.com/e954-halal"
+
+- code: E955
+  name: sucralose
+  status: halal
+  note: "Artificial sweetener; halal."
+  citations:
+    - "https://example.com/e955-halal"
+
+- code: E959
+  name: neohesperidin dihydrochalcone
+  status: halal
+  note: "Sweetener derived from citrus; halal."
+  citations:
+    - "https://example.com/e959-halal"
+
+- code: E960
+  name: steviol glycosides
+  status: halal
+  note: "Sweetener from stevia plant; halal."
+  citations:
+    - "https://example.com/e960-halal"
+
+- code: E965
+  name: maltitol
+  status: halal
+  note: "Sugar alcohol; halal."
+  citations:
+    - "https://example.com/e965-halal"
+
+- code: E966
+  name: lactitol
+  status: halal
+  note: "Sugar alcohol; halal."
+  citations:
+    - "https://example.com/e966-halal"
+
+- code: E967
+  name: xylitol
+  status: halal
+  note: "Sugar alcohol; halal."
+  citations:
+    - "https://example.com/e967-halal"

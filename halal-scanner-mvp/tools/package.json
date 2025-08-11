@@ -1,0 +1,28 @@
+{
+  "name": "@halalscanner/tools",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Command line tools for Halal Scanner",
+  "bin": {
+    "ingest:off": "dist/ingest-off.js",
+    "rules:validate": "dist/rules-validate.js",
+    "rules:bundle": "dist/rules-bundle.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "ingest:off": "node dist/ingest-off.js",
+    "rules:validate": "node dist/rules-validate.js",
+    "rules:bundle": "node dist/rules-bundle.js"
+  },
+  "dependencies": {
+    "@halalscanner/rules": "workspace:*",
+    "node-fetch": "^3.3.1",
+    "adm-zip": "^0.5.10",
+    "yaml": "^2.3.2",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "@types/node": "^20.4.2"
+  }
+}
