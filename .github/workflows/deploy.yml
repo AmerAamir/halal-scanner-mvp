@@ -1,8 +1,33 @@
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [ "main" ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      # (Optional) Show folders so we’re sure paths are right
+      - name: Show repo tree
+        run: |
+          echo "Top level:"; pwd; ls -la
+          echo ""; echo "inner halal-scanner-mvp:"; ls -la halal-scanner-mvp || true
+          echo ""; echo "apps:"; ls -la halal-scanner-mvp/apps || true
+          echo ""; echo "apps/web:"; ls -la halal-scanner-mvp/apps/web || true
 
       - name: Setup Node
         uses: actions/setup-node@v4
@@ -33,3 +58,13 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           path: halal-scanner-mvp/apps/web/out
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
