@@ -3,7 +3,7 @@ const withPWA = require('next-pwa')({
   dest: 'public',
   disable: process.env.NODE_ENV === 'development',
   register: true,
-  skipWaiting: true
+  skipWaiting: true,
 });
 
 const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
@@ -13,15 +13,15 @@ const nextConfig = {
   swcMinify: true,
   trailingSlash: true,
   basePath,
+  assetPrefix: basePath ? `${basePath}/` : undefined, // ← add this
   images: {
-    unoptimized: true
+    unoptimized: true,
   },
   experimental: {
-    appDir: true
+    appDir: true,
   },
   output: 'export',
-  // Ensure local workspace packages are transpiled by Next.js
-  transpilePackages: ['@halalscanner/engine', '@halalscanner/rules']
+  transpilePackages: ['@halalscanner/engine', '@halalscanner/rules'],
 };
 
 module.exports = withPWA(nextConfig);
