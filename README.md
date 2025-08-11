@@ -1,0 +1,1 @@
+"# halal-scanner-mvp" 
