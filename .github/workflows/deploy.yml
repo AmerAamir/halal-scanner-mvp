@@ -19,7 +19,7 @@ jobs:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: halal-scanner-mvp  # <— go inside the inner folder
+        working-directory: halal-scanner-mvp  # go inside inner folder
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -33,19 +33,18 @@ jobs:
       - name: Install pnpm
         run: npm install -g pnpm@8.10.5
 
-      - name: Install dependencies (workspace root = inner folder)
+      - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Build Next.js (apps/web)
+      - name: Build Next.js app
         run: pnpm --filter apps/web run build
 
-      - name: Export static site (apps/web)
+      - name: Export static site
         run: pnpm --filter apps/web run export
 
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # Use the FULL relative path from the repo root to be 100% safe:
           path: halal-scanner-mvp/apps/web/out
 
   deploy:
